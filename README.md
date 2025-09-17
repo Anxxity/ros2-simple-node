@@ -8,24 +8,25 @@ This is a simple ROS 2 (Humble) workspace setup and a basic Python node example 
 
 bash
 # Source ROS 2
----
+```
 source /opt/ros/humble/setup.bash
----
+```
 # Create workspace and source folder
----
+```
 mkdir -p ~/ros2_ws/src
----
----
-cd ~/ros2_ws/src
----
-# Create a Python package (replace <pkg_name>)
-ros2 pkg create --build-type ament_python <pkg_name> --dependencies rclpy std_msgs
 
+cd ~/ros2_ws/src
+```
+# Create a Python package (replace <pkg_name>)
+```ros2 pkg create --build-type ament_python <pkg_name> --dependencies rclpy std_msgs
+```
 # Build the workspace
+```
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
 
+```
 
 # 🛠️ Custom ROS 2 Node Creation (Python)
 
