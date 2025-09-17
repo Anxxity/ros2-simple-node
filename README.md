@@ -6,7 +6,7 @@ This is a simple ROS 2 (Humble) workspace setup and a basic Python node example 
 
 ## 🛠️ Workspace Setup
 
-```bash
+bash
 # Source ROS 2
 ---
 source /opt/ros/humble/setup.bash
@@ -43,7 +43,7 @@ source install/setup.bash
 
 ### 1️⃣ Import ROS 2 Libraries
 
-```python
+python
 #!/usr/bin/env python3  # Shebang line to indicate Python 3
 
 import rclpy             # Core ROS 2 Python library
