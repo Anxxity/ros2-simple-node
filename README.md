@@ -18,7 +18,9 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 ```
 # Create a Python package (replace <pkg_name>)
-```ros2 pkg create --build-type ament_python <pkg_name> --dependencies rclpy std_msgs
+```
+ros2 pkg create --build-type ament_python <pkg_name> --dependencies rclpy std_msgs
+
 ```
 # Build the workspace
 ```
