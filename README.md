@@ -2,7 +2,7 @@
 
 This is a simple ROS 2 (Humble) workspace setup and a basic Python node example using `rclpy`.
 
----
+
 
 ## 🛠️ Workspace Setup
 
@@ -37,7 +37,7 @@ source install/setup.bash
 4. Spin the Node (Keep it Running)  
 5. Shutdown Cleanly
 
----
+
 
 ## 🔹 Step-by-Step Breakdown
 
