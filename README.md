@@ -51,3 +51,29 @@ python
 
 import rclpy             # Core ROS 2 Python library
 from rclpy.node import Node  # Base Node class
+
+
+### Create a Custom Node Class
+```
+class SimpleNode(Node):
+    def __init__(self):
+        super().__init__('simple_node')  # Initialize node with name
+        self.get_logger().info('SimpleNode has been started')  # Print to console
+
+```
+
+### Initialize the ROS 2 System and Spin the Node
+```
+def main(args=None):
+    rclpy.init(args=args)    # Initialize ROS 2 system
+    node = SimpleNode()      # Create node instance
+    rclpy.spin(node)         # Keep the node alive
+
+```
+### Shutdown Cleanly
+
+```
+    node.destroy_node()      # Destroy the node
+    rclpy.shutdown()         # Shutdown the ROS system
+
+```
