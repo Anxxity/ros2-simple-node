@@ -44,6 +44,14 @@ source install/setup.bash
 
 ## 🔹 Step-by-Step Breakdown
 
+```
+
+cd <pkg name>
+touch <pkg name>.py
+chmod +x <pkg name>
+```
+### 
+
 ### 1️⃣ Import ROS 2 Libraries
 
 python
@@ -75,5 +83,30 @@ def main(args=None):
 ```
     node.destroy_node()      # Destroy the node
     rclpy.shutdown()         # Shutdown the ROS system
+
+```
+
+
+### full example code
+
+```
+#!/usr/bin/env python3 
+import rclpy
+from rclpy.node import Node
+
+class hello_world(Node):
+    def __init__(self):
+        super().__init__('hello_world')
+        self.get_logger().info('Hello, World!')
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = hello_world()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
 
 ```
