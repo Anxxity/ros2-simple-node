@@ -112,7 +112,7 @@ if __name__ == "__main__":
 ```
 
 
-### full go to setup.py 
+###  go to setup.py 
 
 #### in entry point
 
