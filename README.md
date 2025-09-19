@@ -110,3 +110,28 @@ if __name__ == "__main__":
     main()
 
 ```
+
+
+### full go to setup.py 
+
+#### in entry point
+
+```
+    entry_points={
+        'console_scripts': [
+            "<node_name> = <pakage_name>.<script_name>:main"
+        ],
+    },
+
+```
+#### example:
+
+```
+'console_scripts': [
+            'hello_world = hello_world.hello_world:main',
+            'bye_world = hello_world.bye_world:main',
+            'bye_worldrecive = hello_world.bye_worldrecive:main',
+        ],
+
+```
+
