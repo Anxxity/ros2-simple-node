@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/timerfr/timerfr.egg-info
+writing ../../build/timerfr/timerfr.egg-info/PKG-INFO
+writing dependency_links to ../../build/timerfr/timerfr.egg-info/dependency_links.txt
+writing entry points to ../../build/timerfr/timerfr.egg-info/entry_points.txt
+writing requirements to ../../build/timerfr/timerfr.egg-info/requires.txt
+writing top-level names to ../../build/timerfr/timerfr.egg-info/top_level.txt
+writing manifest file '../../build/timerfr/timerfr.egg-info/SOURCES.txt'
+reading manifest file '../../build/timerfr/timerfr.egg-info/SOURCES.txt'
+writing manifest file '../../build/timerfr/timerfr.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/remin/Desktop/exp-2-ros/build/timerfr/build
+creating /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib
+creating /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib/timerfr
+copying timerfr/__init__.py -> /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib/timerfr
+running install
+running install_lib
+creating /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr
+copying /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib/timerfr/__init__.py -> /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr
+byte-compiling /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index
+creating /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index/resource_index
+creating /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index/resource_index/packages
+copying resource/timerfr -> /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index/resource_index/packages
+copying package.xml -> /home/remin/Desktop/exp-2-ros/install/timerfr/share/timerfr
+running install_egg_info
+Copying ../../build/timerfr/timerfr.egg-info to /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/remin/Desktop/exp-2-ros/build/timerfr/install.log'

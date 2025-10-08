@@ -1,0 +1,5 @@
+[console_scripts]
+bye_world = hello_world.bye_world:main
+bye_worldrecive = hello_world.bye_worldrecive:main
+hello_world = hello_world.hello_world:main
+

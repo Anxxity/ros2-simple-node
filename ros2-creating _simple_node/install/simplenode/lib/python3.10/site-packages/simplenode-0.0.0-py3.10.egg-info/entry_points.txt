@@ -1,0 +1,3 @@
+[console_scripts]
+simplenode = simplenode.simplenode:main
+

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/timerfr/timerfr.egg-info/PKG-INFO
+../../build/timerfr/timerfr.egg-info/SOURCES.txt
+../../build/timerfr/timerfr.egg-info/dependency_links.txt
+../../build/timerfr/timerfr.egg-info/entry_points.txt
+../../build/timerfr/timerfr.egg-info/requires.txt
+../../build/timerfr/timerfr.egg-info/top_level.txt
+../../build/timerfr/timerfr.egg-info/zip-safe
+resource/timerfr
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+timerfr/__init__.py
+timerfr/timer.py

@@ -1,0 +1,6 @@
+source;share/simplenode/hook/pythonpath.ps1
+source;share/simplenode/hook/pythonpath.dsv
+source;share/simplenode/hook/pythonpath.sh
+source;share/simplenode/hook/ament_prefix_path.ps1
+source;share/simplenode/hook/ament_prefix_path.dsv
+source;share/simplenode/hook/ament_prefix_path.sh

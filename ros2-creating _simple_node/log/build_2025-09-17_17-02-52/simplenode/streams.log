@@ -1,0 +1,22 @@
+[0.285s] Invoking command in '/home/remin/Desktop/ros2-creating _simple_node/src/simplenode': PYTHONPATH=/home/remin/Desktop/ros2-creating _simple_node/build/simplenode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simplenode build --build-base /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build install --record /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/install.log --single-version-externally-managed install_data
+[0.387s] running egg_info
+[0.387s] writing ../../build/simplenode/simplenode.egg-info/PKG-INFO
+[0.387s] writing dependency_links to ../../build/simplenode/simplenode.egg-info/dependency_links.txt
+[0.388s] writing entry points to ../../build/simplenode/simplenode.egg-info/entry_points.txt
+[0.388s] writing requirements to ../../build/simplenode/simplenode.egg-info/requires.txt
+[0.388s] writing top-level names to ../../build/simplenode/simplenode.egg-info/top_level.txt
+[0.389s] reading manifest file '../../build/simplenode/simplenode.egg-info/SOURCES.txt'
+[0.405s] writing manifest file '../../build/simplenode/simplenode.egg-info/SOURCES.txt'
+[0.405s] running build
+[0.405s] running build_py
+[0.405s] running install
+[0.406s] running install_lib
+[0.406s] running install_data
+[0.406s] copying package.xml -> /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/share/simplenode
+[0.406s] running install_egg_info
+[0.407s] removing '/home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages/simplenode-0.0.0-py3.10.egg-info' (and everything under it)
+[0.408s] Copying ../../build/simplenode/simplenode.egg-info to /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages/simplenode-0.0.0-py3.10.egg-info
+[0.408s] running install_scripts
+[0.419s] Installing simplenode script to /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/simplenode
+[0.419s] writing list of installed files to '/home/remin/Desktop/ros2-creating _simple_node/build/simplenode/install.log'
+[0.431s] Invoked command in '/home/remin/Desktop/ros2-creating _simple_node/src/simplenode' returned '0': PYTHONPATH=/home/remin/Desktop/ros2-creating _simple_node/build/simplenode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simplenode build --build-base /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build install --record /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/install.log --single-version-externally-managed install_data

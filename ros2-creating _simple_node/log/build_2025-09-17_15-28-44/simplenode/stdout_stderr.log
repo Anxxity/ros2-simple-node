@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/simplenode/simplenode.egg-info
+writing ../../build/simplenode/simplenode.egg-info/PKG-INFO
+writing dependency_links to ../../build/simplenode/simplenode.egg-info/dependency_links.txt
+writing entry points to ../../build/simplenode/simplenode.egg-info/entry_points.txt
+writing requirements to ../../build/simplenode/simplenode.egg-info/requires.txt
+writing top-level names to ../../build/simplenode/simplenode.egg-info/top_level.txt
+writing manifest file '../../build/simplenode/simplenode.egg-info/SOURCES.txt'
+reading manifest file '../../build/simplenode/simplenode.egg-info/SOURCES.txt'
+writing manifest file '../../build/simplenode/simplenode.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build
+creating /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build/lib
+creating /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build/lib/simplenode
+copying simplenode/__init__.py -> /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build/lib/simplenode
+running install
+running install_lib
+creating /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages/simplenode
+copying /home/remin/Desktop/ros2-creating _simple_node/build/simplenode/build/lib/simplenode/__init__.py -> /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages/simplenode
+byte-compiling /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages/simplenode/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/share/ament_index
+creating /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/share/ament_index/resource_index
+creating /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/share/ament_index/resource_index/packages
+copying resource/simplenode -> /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/share/ament_index/resource_index/packages
+copying package.xml -> /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/share/simplenode
+running install_egg_info
+Copying ../../build/simplenode/simplenode.egg-info to /home/remin/Desktop/ros2-creating _simple_node/install/simplenode/lib/python3.10/site-packages/simplenode-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/remin/Desktop/ros2-creating _simple_node/build/simplenode/install.log'

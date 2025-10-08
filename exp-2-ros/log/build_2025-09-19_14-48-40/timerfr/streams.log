@@ -1,0 +1,33 @@
+[1.712s] Invoking command in '/home/remin/Desktop/exp-2-ros/src/timerfr': PYTHONPATH=/home/remin/Desktop/exp-2-ros/build/timerfr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/timerfr build --build-base /home/remin/Desktop/exp-2-ros/build/timerfr/build install --record /home/remin/Desktop/exp-2-ros/build/timerfr/install.log --single-version-externally-managed install_data
+[1.870s] running egg_info
+[1.870s] creating ../../build/timerfr/timerfr.egg-info
+[1.871s] writing ../../build/timerfr/timerfr.egg-info/PKG-INFO
+[1.871s] writing dependency_links to ../../build/timerfr/timerfr.egg-info/dependency_links.txt
+[1.871s] writing entry points to ../../build/timerfr/timerfr.egg-info/entry_points.txt
+[1.871s] writing requirements to ../../build/timerfr/timerfr.egg-info/requires.txt
+[1.890s] writing top-level names to ../../build/timerfr/timerfr.egg-info/top_level.txt
+[1.890s] writing manifest file '../../build/timerfr/timerfr.egg-info/SOURCES.txt'
+[1.890s] reading manifest file '../../build/timerfr/timerfr.egg-info/SOURCES.txt'
+[1.890s] writing manifest file '../../build/timerfr/timerfr.egg-info/SOURCES.txt'
+[1.891s] running build
+[1.891s] running build_py
+[1.891s] creating /home/remin/Desktop/exp-2-ros/build/timerfr/build
+[1.891s] creating /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib
+[1.891s] creating /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib/timerfr
+[1.891s] copying timerfr/__init__.py -> /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib/timerfr
+[1.891s] running install
+[1.892s] running install_lib
+[1.892s] creating /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr
+[1.892s] copying /home/remin/Desktop/exp-2-ros/build/timerfr/build/lib/timerfr/__init__.py -> /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr
+[1.892s] byte-compiling /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr/__init__.py to __init__.cpython-310.pyc
+[1.892s] running install_data
+[1.892s] creating /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index
+[1.892s] creating /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index/resource_index
+[1.892s] creating /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index/resource_index/packages
+[1.892s] copying resource/timerfr -> /home/remin/Desktop/exp-2-ros/install/timerfr/share/ament_index/resource_index/packages
+[1.892s] copying package.xml -> /home/remin/Desktop/exp-2-ros/install/timerfr/share/timerfr
+[1.892s] running install_egg_info
+[1.893s] Copying ../../build/timerfr/timerfr.egg-info to /home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages/timerfr-0.0.0-py3.10.egg-info
+[1.893s] running install_scripts
+[1.903s] writing list of installed files to '/home/remin/Desktop/exp-2-ros/build/timerfr/install.log'
+[1.914s] Invoked command in '/home/remin/Desktop/exp-2-ros/src/timerfr' returned '0': PYTHONPATH=/home/remin/Desktop/exp-2-ros/build/timerfr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/remin/Desktop/exp-2-ros/install/timerfr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/timerfr build --build-base /home/remin/Desktop/exp-2-ros/build/timerfr/build install --record /home/remin/Desktop/exp-2-ros/build/timerfr/install.log --single-version-externally-managed install_data
