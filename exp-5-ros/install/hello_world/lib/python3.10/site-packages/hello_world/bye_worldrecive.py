@@ -10,7 +10,7 @@ class ByeWorlds(Node):
         self.get_logger().info(' bye Worlds! Node Started.')
         self.subscription = self.create_subscription(
             String,
-            "chatter2",
+            "chatter1",
             self.listener_callback,
             10
             )
