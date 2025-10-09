@@ -134,4 +134,30 @@ if __name__ == "__main__":
         ],
 
 ```
+# Steps to automatically source ROS 2 Humble on every terminal open:
 
+1. Open your bashrc file:
+```
+
+nano ~/.bashrc
+
+```
+2. Scroll to the bottom and add this line:
+   ```
+   
+   source /opt/ros/humble/setup.bash
+
+   ```
+3. Optional) If you also have a workspace (like ~/ros2_ws), add this after:
+```
+source ~/ros2_ws/install/setup.bash
+
+
+```
+4. Save and exit (CTRL+O, then ENTER, then CTRL+X).
+5. Reload the changes in the current terminal: or restart the pc
+```
+source ~/.bashrc
+
+
+```
