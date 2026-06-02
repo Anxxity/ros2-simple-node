@@ -22,6 +22,12 @@ cd ~/ros2_ws/src
 ros2 pkg create --build-type ament_python <pkg_name> --dependencies rclpy std_msgs
 
 ```
+
+# Create a cpp package (replace <pkg_name>)
+```
+ros2 pkg create --build-type ament_cmake <pkg_name> --dependencies rclpy std_msgs
+
+```
 # Build the workspace
 ```
 cd ~/ros2_ws
